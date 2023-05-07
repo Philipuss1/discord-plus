@@ -17,8 +17,8 @@
 
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
-   To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/xZv5y2q.jpg);
+   To use an image from your computer, upload it somewhere first, copy its link, then paste it below. 
+  --dplus-backdrop: url(https://i.imgur.com/xZv5y2q.jpg); */ 
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 93;
@@ -67,9 +67,9 @@
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 20%;
-  --dplus-radius-server: 20%;
+  --dplus-radius-ui: 0px;
+  --dplus-radius-avatar: 0px;
+  --dplus-radius-server: 0px;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
